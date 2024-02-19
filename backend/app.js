@@ -17,10 +17,10 @@ app.use(express.static("public"));
 app.use(cookieParser());
 
 //routes import
-import userRouter from "./routes/user.routes.js";
+// import userRouter from "./routes/user.routes.js";
 
 //routes declaration
-app.use("/api/v1/healthcheck", healthcheckRouter);
+// app.use("/api/v1/healthcheck", healthcheckRouter);
 
 // http://localhost:8000/api/v1/users/register
 
