@@ -1,14 +1,16 @@
 
 import "./App.css";
-import Footer from "./components/layout/Footer/Footer";
-import MyComponent from "./context/store/MyComponent";
+import Header from './components/Header/Header.jsx'
+
+
+
 
 function App() {
   return (
-    <MyComponent>
+    <>
+      <Header />
 
-
-    </MyComponent>
+    </>
   );
 }
 

@@ -7,7 +7,7 @@ const userSchema = new mongoose.Schema(
     },
     phoneNumber: {
       type: "Number",
-      required: [true, "fullname is required"],
+      required: [true, "phone is required"],
       min: 10,
       max: 10,
     },
