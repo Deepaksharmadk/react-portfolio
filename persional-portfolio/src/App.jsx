@@ -1,16 +1,12 @@
-
 import "./App.css";
-import Header from './components/Header/Header.jsx'
 
-
-
+import UserContextProvider from "./context/UserContextProvider.jsx";
 
 function App() {
   return (
-    <>
-      <Header />
-
-    </>
+    <UserContextProvider>
+      <h1>React with Chai and share is important</h1>
+    </UserContextProvider>
   );
 }
 
