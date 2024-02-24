@@ -1,13 +1,10 @@
 import "./App.css";
+import Login from "./components/Login/Login.jsx";
 
 import UserContextProvider from "./context/UserContextProvider.jsx";
 
 function App() {
-  return (
-    <UserContextProvider>
-      <h1>React with Chai and share is important</h1>
-    </UserContextProvider>
-  );
+  return <UserContextProvider></UserContextProvider>;
 }
 
 export default App;
