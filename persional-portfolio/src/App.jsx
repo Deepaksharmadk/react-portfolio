@@ -1,10 +1,14 @@
 import "./App.css";
-import Login from "./components/Login/Login.jsx";
+import ForgetPass from "./components/ForgetPassword/ForgetPass.jsx";
 
 import UserContextProvider from "./context/UserContextProvider.jsx";
 
 function App() {
-  return <UserContextProvider></UserContextProvider>;
+  return (
+    <UserContextProvider>
+      <ForgetPass />
+    </UserContextProvider>
+  );
 }
 
 export default App;
