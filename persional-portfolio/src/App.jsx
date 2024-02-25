@@ -1,13 +1,11 @@
-import "./App.css";
-import ForgetPass from "./components/ForgetPassword/ForgetPass.jsx";
-
-import UserContextProvider from "./context/UserContextProvider.jsx";
+import React from "react";
+import SignUpTwo from "./components/SignUpTwo";
 
 function App() {
   return (
-    <UserContextProvider>
-      <ForgetPass />
-    </UserContextProvider>
+    <>
+      <SignUpTwo />
+    </>
   );
 }
 
