@@ -1,6 +1,6 @@
 import { useState } from "react";
 import UserContext from "./UserContext";
-import Header from "../components/Header/Header";
+import Header from "../components/Header.jsx";
 
 const UserContextProvider = ({ children }) => {
   const [user, setUser] = useState(null);
