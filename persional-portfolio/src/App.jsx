@@ -1,10 +1,10 @@
 import React from "react";
-import SignUpTwo from "./components/SignUpTwo";
+import Register from "./components/Register";
 
 function App() {
   return (
     <>
-      <SignUpTwo />
+      <Register />
     </>
   );
 }
